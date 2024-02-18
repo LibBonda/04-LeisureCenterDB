@@ -1,4 +1,4 @@
-# main.py
+# main.py connects to MongoDB
 from db import connect_to_db
 from retrieve import retrieve_all, retrieve_one
 from addDoc import add_one, add_many
